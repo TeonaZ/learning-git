@@ -1,0 +1,65 @@
+Virtual User Script started at : 2022-02-02 22:35:24
+Starting action Init.
+TruClient Replay for LoadRunner 12.50.0, build 1096. OS: Windows 8, Browser: Firefox, initialized on 2022/02/02 at 22:35:21 (0000.000s)
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00003496ms: ** 1: Navigate to "http://127.0.0.1:1080/WebTours/index.htm" ** started    [MsgId: MMSG-205180]
+t=00003886ms: ** 1: Navigate to "http://127.0.0.1:1080/WebTours/index.htm" ** successfully completed    [MsgId: MMSG-205180]
+t=00004404ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004622ms: ** 2: Click on Username textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00005135ms: ** 3: Type jojo in Username textbox ** started    [MsgId: MMSG-205180]
+t=00006715ms: ** 3: Type jojo in Username textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00007236ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00007455ms: ** 4: Click on Password passwordbox ** successfully completed    [MsgId: MMSG-205180]
+t=00007972ms: ** 5: Type **** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00009628ms: ** 5: Type **** in Password passwordbox ** successfully completed    [MsgId: MMSG-205180]
+t=00010145ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00010675ms: ** 6: Click on Login button ** successfully completed    [MsgId: MMSG-205180]
+t=00011193ms: ** 7: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00011737ms: ** 7: Click on Search Flights Button image ** successfully completed    [MsgId: MMSG-205180]
+t=00012258ms: ** 8: Select London from Departure City  listbox ** started    [MsgId: MMSG-205180]
+t=00012271ms: ** 8: Select London from Departure City  listbox ** successfully completed    [MsgId: MMSG-205180]
+t=00012775ms: ** 9: Select San Francisco from Arrival City  listbox ** started    [MsgId: MMSG-205180]
+t=00012786ms: ** 9: Select San Francisco from Arrival City  listbox ** successfully completed    [MsgId: MMSG-205180]
+t=00013302ms: ** 10: Click on 02/03/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00013523ms: ** 10: Click on 02/03/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00014038ms: ** 11: Type 02/03/2023 in 02/03/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00017468ms: ** 11: Type 02/03/2023 in 02/03/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00017982ms: ** 12: Click on 02/04/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00018202ms: ** 12: Click on 02/04/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00018716ms: ** 13: Type 02/04/2024 in 02/04/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00021736ms: ** 13: Type 02/04/2024 in 02/04/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00022249ms: ** 14: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00022698ms: ** 14: Click on findFlights button ** successfully completed    [MsgId: MMSG-205180]
+t=00023210ms: ** 15: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00023651ms: ** 15: Click on reserveFlights button ** successfully completed    [MsgId: MMSG-205180]
+t=00024166ms: ** 16: Click on Street Address  textbox ** started    [MsgId: MMSG-205180]
+t=00024385ms: ** 16: Click on Street Address  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00024896ms: ** 17: Type 1012 kendal way in Street Address  textbox ** started    [MsgId: MMSG-205180]
+t=00031525ms: ** 17: Type 1012 kendal way in Street Address  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00032039ms: ** 18: Click on City/State/Zip  textbox ** started    [MsgId: MMSG-205180]
+t=00032260ms: ** 18: Click on City/State/Zip  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00032778ms: ** 19: Type 23456 in City/State/Zip  textbox ** started    [MsgId: MMSG-205180]
+t=00034807ms: ** 19: Type 23456 in City/State/Zip  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00035326ms: ** 20: Click on gridcell (1) gridcell ** started    [MsgId: MMSG-205180]
+t=00035337ms: ** 20: Click on gridcell (1) gridcell ** successfully completed    [MsgId: MMSG-205180]
+t=00035844ms: ** 21: Click on Credit Card  textbox ** started    [MsgId: MMSG-205180]
+t=00036064ms: ** 21: Click on Credit Card  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00036581ms: ** 22: Type 246897643688 in Credit Card  textbox ** started    [MsgId: MMSG-205180]
+t=00041870ms: ** 22: Type 246897643688 in Credit Card  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00042387ms: ** 23: Click on Exp Date  textbox ** started    [MsgId: MMSG-205180]
+t=00042605ms: ** 23: Click on Exp Date  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00043120ms: ** 24: Type 876 in Exp Date  textbox ** started    [MsgId: MMSG-205180]
+t=00044184ms: ** 24: Type 876 in Exp Date  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00044698ms: ** 25: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00045184ms: ** 25: Click on buyFlights button ** successfully completed    [MsgId: MMSG-205180]
+t=00045703ms: ** 26: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00046192ms: ** 26: Click on SignOff Button image ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.

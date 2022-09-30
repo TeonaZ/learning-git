@@ -1,0 +1,70 @@
+Virtual User Script started at : 2022-02-04 10:08:17
+Starting action Init.
+TruClient Replay for LoadRunner 12.50.0, build 1096. OS: Windows 8, Browser: Firefox, initialized on 2022/02/04 at 10:08:14 (0000.000s)
+
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00004367ms: ** 1: Navigate to "http://127.0.0.1:1080/WebTours/index.htm" ** started    [MsgId: MMSG-205180]
+t=00004836ms: ** 1: Navigate to "http://127.0.0.1:1080/WebTours/index.htm" ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "logon_process" started.
+t=00005354ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00005602ms: ** 2: Click on Username textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00006118ms: ** 3: Type jojo in Username textbox ** started    [MsgId: MMSG-205180]
+t=00008249ms: ** 3: Type jojo in Username textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00008759ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00008978ms: ** 4: Click on Password passwordbox ** successfully completed    [MsgId: MMSG-205180]
+t=00009489ms: ** 5: Type **** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00011659ms: ** 5: Type **** in Password passwordbox ** successfully completed    [MsgId: MMSG-205180]
+t=00012173ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00012814ms: ** 6: Click on Login button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "logon_process" ended with a "Pass" status (Duration: 7.4640 Wasted Time: 3.0710).
+t=00013329ms: ** 7: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00013970ms: ** 7: Click on Search Flights Button image ** successfully completed    [MsgId: MMSG-205180]
+t=00014484ms: ** 8: Select Frankfurt from Departure City  listbox ** started    [MsgId: MMSG-205180]
+t=00014541ms: ** 8: Select Frankfurt from Departure City  listbox ** successfully completed    [MsgId: MMSG-205180]
+t=00015047ms: ** 9: Select Zurich from Arrival City  listbox ** started    [MsgId: MMSG-205180]
+t=00015071ms: ** 9: Select Zurich from Arrival City  listbox ** successfully completed    [MsgId: MMSG-205180]
+t=00015577ms: ** 10: Click on 02/05/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00015812ms: ** 10: Click on 02/05/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00016325ms: ** 11: Type 02/05/2024 in 02/05/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00020298ms: ** 11: Type 02/05/2024 in 02/05/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00020810ms: ** 12: Click on 02/06/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00021045ms: ** 12: Click on 02/06/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00021564ms: ** 13: Type 02/06/2027 in 02/06/2022 textbox ** started    [MsgId: MMSG-205180]
+t=00025108ms: ** 13: Type 02/06/2027 in 02/06/2022 textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00025624ms: ** 14: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00026156ms: ** 14: Click on findFlights button ** successfully completed    [MsgId: MMSG-205180]
+t=00026670ms: ** 15: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00027187ms: ** 15: Click on reserveFlights button ** successfully completed    [MsgId: MMSG-205180]
+t=00027703ms: ** 16: Click on Street Address  textbox ** started    [MsgId: MMSG-205180]
+t=00027937ms: ** 16: Click on Street Address  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00028452ms: ** 17: Type 17 tire drive in Street Address  textbox ** started    [MsgId: MMSG-205180]
+t=00033970ms: ** 17: Type 17 tire drive in Street Address  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00034480ms: ** 18: Click on City/State/Zip  textbox ** started    [MsgId: MMSG-205180]
+t=00034716ms: ** 18: Click on City/State/Zip  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00035236ms: ** 19: Type 34678 in City/State/Zip  textbox ** started    [MsgId: MMSG-205180]
+t=00036416ms: ** 19: Type 34678 in City/State/Zip  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00036929ms: ** 20: Click on Credit Card  textbox ** started    [MsgId: MMSG-205180]
+t=00037163ms: ** 20: Click on Credit Card  textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "CC_process" started.
+t=00037676ms: ** 21: Type 45678906 in Credit Card  textbox ** started    [MsgId: MMSG-205180]
+t=00040810ms: ** 21: Type 45678906 in Credit Card  textbox ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "CC_process" ended with a "Pass" status (Duration: 3.1380 Wasted Time: 0.2040).
+t=00041326ms: ** 22: Click on Exp Date  textbox ** started    [MsgId: MMSG-205180]
+t=00041563ms: ** 22: Click on Exp Date  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00042076ms: ** 23: Type 765 in Exp Date  textbox ** started    [MsgId: MMSG-205180]
+t=00043568ms: ** 23: Type 765 in Exp Date  textbox ** successfully completed    [MsgId: MMSG-205180]
+t=00044083ms: ** 24: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00044647ms: ** 24: Click on buyFlights button ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "logout_process" started.
+t=00045161ms: ** 25: Click on SignOff Button image ** started    [MsgId: MMSG-205180]
+t=00045755ms: ** 25: Click on SignOff Button image ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "logout_process" ended with a "Pass" status (Duration: 0.5990 Wasted Time: 0.2030).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.

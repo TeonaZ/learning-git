@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Teona Zaalishvili\Documents\VuGen\Scripts\simple_02
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\teona zaalishvili\documents\vugen\scripts\simple_02\\logfile.log
+c:\users\teona zaalishvili\documents\vugen\scripts\simple_02\\combined_simple_02.c
+c:\users\teona zaalishvili\documents\vugen\scripts\simple_02\\pre_cci.c
